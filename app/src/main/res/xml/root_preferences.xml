@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/subjects">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/science_pref_key"
+            android:title="Science" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/apbio_pref_key"
+            android:title="AP Bio" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/mobileapp_pref_key"
+            android:title="Mobile App" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/precalc_ref_key"
+            android:title="Pre-Calc" />
+    </PreferenceCategory>
+</PreferenceScreen>
