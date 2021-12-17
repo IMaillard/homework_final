@@ -16,4 +16,5 @@
     <string name="science">Science</string>
     <string name="settings">settings</string>
     <string name="subjects">Subjects</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>
